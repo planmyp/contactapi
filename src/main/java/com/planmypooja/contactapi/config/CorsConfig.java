@@ -1,7 +1,10 @@
 package com.planmypooja.contactapi.config;
 
+import com.planmypooja.contactapi.domain.HomeCardPoojaTypesModel;
+import com.planmypooja.contactapi.service.HomeCardPoojaTypeService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
@@ -29,6 +32,12 @@ import static org.springframework.http.HttpMethod.PUT;
  * @version 1.0
  * @email ambuj.bhardwaj15@gmail.com
  * @since 11/23/2024
+ *
+ *
+ * Update:
+ * @Author Ambuj
+ * @email aambuj.bhardwaj15@gmail.com
+ * @updated on 16.02.2025
  */
 
 @Configuration
@@ -46,6 +55,9 @@ public class CorsConfig {
         urlBasedCorsConfigurationSource.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsFilter(urlBasedCorsConfigurationSource);
     }
+
+
+
 }
 
 
