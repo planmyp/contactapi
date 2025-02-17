@@ -18,7 +18,7 @@ public class HomeCardPoojaTypeService {
                 new PoojaTypeCard("/photos/vivaahSanskar.jpg", "Vivah Sanskar", "Vivah Sanskar", "Book"),
                 new PoojaTypeCard("/photos/pitrPooja.png", "Pitra Pooja", "Pitra Pooja", "Book"),
                 new PoojaTypeCard("/photos/shivPooja.webp", "Shiv Pooja", "Shiv Pooja", "Book"),
-                new PoojaTypeCard("/photos/durgaPooja.webp", "Durga Pooja", "Durga Pooja", "Book"),
+                new PoojaTypeCard("/photos/durgaPooja.jpg", "Durga Pooja", "Durga Pooja", "Book"),
                 new PoojaTypeCard("/photos/shaniPooja.webp", "Shani Pooja", "Shani Pooja", "Book")
         );
     }
