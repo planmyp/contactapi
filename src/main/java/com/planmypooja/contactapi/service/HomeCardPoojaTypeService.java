@@ -11,15 +11,15 @@ import java.util.List;
 public class HomeCardPoojaTypeService {
     public List<PoojaTypeCard> getCards() {
         return List.of(
-                new PoojaTypeCard("/photos/ganeshPooja.png", "Ganesh Pooja", "Ganesh Pooja", "Book Now"),
-                new PoojaTypeCard("/photos/lakshmiPooja.png", "Lakshmi Pooja", "Lakshmi Pooja", "Book Now"),
-                new PoojaTypeCard("/photos/saraswatiPooja.png", "Saraswati Pooja", "Saraswati Pooja", "Book Now")
-//                new PoojaTypeCard("https://via.placeholder.com/150", "Card 4", "This is card 4", "Learn More"),
-//                new PoojaTypeCard("https://via.placeholder.com/150", "Card 5", "This is card 5", "Learn More"),
-//                new PoojaTypeCard("https://via.placeholder.com/150", "Card 6", "This is card 6", "Learn More"),
-//                new PoojaTypeCard("https://via.placeholder.com/150", "Card 7", "This is card 7", "Learn More"),
-//                new PoojaTypeCard("https://via.placeholder.com/150", "Card 8", "This is card 8", "Learn More"),
-//                new PoojaTypeCard("https://via.placeholder.com/150", "Card 9", "This is card 9", "Learn More")
+                new PoojaTypeCard("/photos/ganeshPooja.png", "Ganesh Pooja", "Ganesh Pooja", "Book"),
+                new PoojaTypeCard("/photos/lakshmiPooja.png", "Lakshmi Pooja", "Lakshmi Pooja", "Book"),
+                new PoojaTypeCard("/photos/saraswatiPooja.png", "Saraswati Pooja", "Saraswati Pooja", "Book"),
+                new PoojaTypeCard("/photos/grihPravesh.jpg", "Grih Pravesh", "Grih Pravesh", "Book"),
+                new PoojaTypeCard("/photos/vivaahSanskar.jpg", "Vivah Sanskar", "Vivah Sanskar", "Book"),
+                new PoojaTypeCard("/photos/pitrPooja.png", "Pitra Pooja", "Pitra Pooja", "Book"),
+                new PoojaTypeCard("/photos/shivPooja.webp", "Shiv Pooja", "Shiv Pooja", "Book"),
+                new PoojaTypeCard("/photos/durgaPooja.webp", "Durga Pooja", "Durga Pooja", "Book"),
+                new PoojaTypeCard("/photos/shaniPooja.webp", "Shani Pooja", "Shani Pooja", "Book")
         );
     }
 
